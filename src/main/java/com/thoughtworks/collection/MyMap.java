@@ -24,10 +24,6 @@ public class MyMap {
         throw new NotImplementedException();
     }
 
-    public List<String> mapLetters() {
-        throw new NotImplementedException();
-    }
-
     public List<Integer> sortFromBig() {
         throw new NotImplementedException();
     }

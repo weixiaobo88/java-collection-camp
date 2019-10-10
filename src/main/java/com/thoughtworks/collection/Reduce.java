@@ -12,43 +12,20 @@ public class Reduce {
         this.arrayList = arrayList;
     }
 
-    public int getMaximum() {
-        throw new NotImplementedException();
-    }
-
-    public double getMinimum() {
-        throw new NotImplementedException();
-    }
-
     public double getAverage() {
         throw new NotImplementedException();
     }
 
-    public double getMedian() { throw new NotImplementedException(); }
-
-    public double getOrderedMedian() {
-        throw new NotImplementedException();
-    }
-
-    public int getFirstEven() {
-        throw new NotImplementedException();
-    }
 
     public int getIndexOfFirstEven() {
         throw new NotImplementedException();
     }
-
-    public boolean isEqual(List<Integer> arrayList) {
-        throw new NotImplementedException();
-    }
-
 
 
     public int getLastOdd() {
         throw new NotImplementedException();
     }
 
-    public int getIndexOfLastOdd() {
-        throw new NotImplementedException();
-    }
+
+
 }
