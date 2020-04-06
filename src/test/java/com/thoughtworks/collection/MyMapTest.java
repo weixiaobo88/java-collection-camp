@@ -11,7 +11,7 @@ public class MyMapTest {
 
     @Test
     public void should_map_to_triple() {
-        //将集合A中得元素映射成集合B中的元素
+        //將集合A中得元素映射成集合B中的元素
 
         Integer[] array = new Integer[]{1, 3, 5, 4, 9};
         List<Integer> list = Arrays.asList(array);
@@ -26,7 +26,7 @@ public class MyMapTest {
 
     @Test
     public void should_map_to_letter() {
-        //数字映射为字母
+        //數字映射為字母
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> list = Arrays.asList(array);
 
@@ -40,7 +40,7 @@ public class MyMapTest {
 
     @Test
     public void should_sort_from_big_to_small() {
-        //从大到小排序
+        //從大到小排序
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> list = Arrays.asList(array);
 
@@ -54,7 +54,7 @@ public class MyMapTest {
 
     @Test
     public void should_sort_from_small_to_big() {
-        //从小到大排序
+        //從小到大排序
         Integer[] array = new Integer[]{3, 2, 4, 5, 1};
         List<Integer> list = Arrays.asList(array);
 

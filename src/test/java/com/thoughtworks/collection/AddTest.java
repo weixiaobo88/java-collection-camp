@@ -11,7 +11,7 @@ public class AddTest {
 
     @Test
     public void should_get_sum_of_evens() {
-        //求leftBorder 和rightBorder之间的偶数和
+        //求leftBorder 和rightBorder之間的偶數和
         int leftBorder = 1;
         int rightBorder = 10;
 
@@ -22,7 +22,7 @@ public class AddTest {
 
     @Test
     public void should_get_sum_of_odds() {
-        //求leftBorder 和rightBorder之间的奇数和
+        //求leftBorder 和rightBorder之間的奇數和
         int leftBorder = 1;
         int rightBorder = 10;
 
@@ -33,7 +33,7 @@ public class AddTest {
 
     @Test
     public void should_get_triple_and_add_two() {
-        //求数组中每个元素的3倍加2的和
+        //求數組中每個元素的3倍加2的和
         Integer[] array = new Integer[]{1, 5, 7, 11, 35, 67};
         List<Integer> arrayList = Arrays.asList(array);
 
@@ -44,7 +44,7 @@ public class AddTest {
 
     @Test
     public void should_get_triple_of_odd_and_add_two() {
-        //求数组中奇数元素的3倍加2，偶数元素不变的数组
+        //求數組中奇數元素的3倍加2，偶數元素不變的數組
         Integer[] array = new Integer[]{1, 5, 7, 12, 11, 35, 54, 67, 70};
         List<Integer> arrayList = Arrays.asList(array);
 
@@ -58,7 +58,7 @@ public class AddTest {
 
     @Test
     public void should_get_sum_of_processed_odd() {
-        //求数组中奇数元素的3倍加5的和
+        //求數組中奇數元素的3倍加5的和
         Integer[] array = new Integer[]{1, 5, 7, 12, 11, 35, 54, 67, 70};
         List<Integer> arrayList = Arrays.asList(array);
         Add add = new Add();
@@ -69,7 +69,7 @@ public class AddTest {
 
     @Test
     public void should_return_whether_include_special_element() {
-        // 求数组中所有偶数组成的数组是否包含某特定的数specialElement
+        //求數組中所有偶數組成的數組是否包含某特定的數specialElement
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> arrayList = Arrays.asList(array);
 
@@ -84,7 +84,7 @@ public class AddTest {
 
     @Test
     public void should_sort_by_even_and_odd() {
-        //排序数组 结果使数组偶数在递增在前，奇数递减在后
+        //排序數組 結果使數組偶數在遞增在前，奇數遞減在後
         Add add = new Add();
 
         Integer[] array = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8};

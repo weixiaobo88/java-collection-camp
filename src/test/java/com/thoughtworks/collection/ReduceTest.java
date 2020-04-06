@@ -11,7 +11,7 @@ public class ReduceTest {
 
     @Test
     public void should_get_average_of_list() {
-        // 获取数组的平均值
+        //獲取數組的平均值
         Integer[] array = new Integer[]{12, 34, 56, 78, 90, 21};
         List<Integer> arrayList = Arrays.asList(array);
 
@@ -23,7 +23,7 @@ public class ReduceTest {
 
     @Test
     public void should_return_index_of_first_even_element() {
-        //获取数组中第一个偶数的下标
+        //獲取數組中第一個偶數的下標
         Integer[] array = new Integer[]{1, 11, 27, 20, 4, 9, 15, 4, 1, 11};
         List<Integer> arrayList = Arrays.asList(array);
 
@@ -33,7 +33,7 @@ public class ReduceTest {
 
     @Test
     public void should_return_last_even_element() {
-        //获取数组中最后一个奇数
+        //獲取數組中最後一個奇數
         Integer[] array = new Integer[]{1, 11, 27, 20, 4, 9, 15};
         List<Integer> arrayList = Arrays.asList(array);
 
